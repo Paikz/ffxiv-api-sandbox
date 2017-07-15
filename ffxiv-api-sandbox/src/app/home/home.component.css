@@ -1,0 +1,19 @@
+.background-container {
+  background: url("../../assets/img/background-img/yanxia.png");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.content-container {
+  margin: 0 auto;
+  width: 50%;
+  height: 700px;
+  margin-top: 15px;
+  background-color: #E6E6E6;
+  border: 1px solid black;
+  border-radius: 8px;
+}
