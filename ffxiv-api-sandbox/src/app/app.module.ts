@@ -1,6 +1,7 @@
 import { BrowserModule }      from '@angular/platform-browser';
 import { RouterModule }       from '@angular/router';
 import { NgModule }           from '@angular/core';
+import { HttpModule }    from '@angular/http';
 
 //Components
 import { AppComponent }       from './app.component';
@@ -18,6 +19,7 @@ import { CharacterService }   from './services/character.service';
   ],
   imports: [
     BrowserModule,
+    HttpModule,
     RouterModule.forRoot([
   {
     path: '',
